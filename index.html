@@ -1,1 +1,30 @@
-hello world!
+---
+layout: default
+title: Sintaxi
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
+  <h1>Talks</h1>
+  <ul class="posts">
+    <li><span>17 Jan 2009</span> &raquo; <a href="#">OSCON - San Jose</a></li>
+    <li><span>17 Jan 2009</span> &raquo; <a href="#">360 | iDev - San Jose</a></li>
+    <li><span>17 Jan 2009</span> &raquo; <a href="#">Ruby in the Rain - Vancouver</a></li>
+    <li><span>17 Jan 2009</span> &raquo; <a href="#">Merb Camp - San Diego</a></li>
+    <li><span>17 Jan 2009</span> &raquo; <a href="#">Open Web Vancouver</a></li>
+    <li><span>17 Jan 2009</span> &raquo; <a href="#">Ruby Camp Vancouver</a></li>
+  </ul>
+  
+  <h1>Projects</h1>
+  <ul class="posts">
+    <li><a href="http://github.com/sintaxi/phonegap/">PhoneGap:</a> device agnostic mobile development platform</li>
+    <li><a href="http://github.com/sintaxi/xui/">XUI:</a> wicked small javascript framework for mobile devices</li>
+    <li><a href="http://github.com/sintaxi/pmpknpi/">Pmpknpi:</a> a once great blog engine written in merb (jekyll is better)</li>
+  </ul>
+</div>
