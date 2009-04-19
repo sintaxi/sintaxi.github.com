@@ -1,0 +1,352 @@
+html{
+  margin:0;
+  padding:0;
+}
+
+body{
+background-color:#F5F6F6;
+background-color:#e7e7de;
+font-family: Verdana, Arial, sans-serif;
+font-size:82%;
+margin:0;
+padding:0;
+text-align:center;
+}
+
+:focus{ outline:0; }
+
+#wrap{
+margin:0 auto;
+background-color:#FFFFFF;
+padding:40px 50px 40px 40px;
+width:600px;
+text-align:left;
+}
+#masthead{
+border-bottom:2px solid #aaa;
+margin-bottom:8px;
+padding:0;
+}
+#main{
+--width:660px;
+padding:0 0 20px 0;
+--float:left;
+margin-bottom:15px;
+min-height:150px;
+}
+#footer{
+clear:both;
+border-top:1px solid #999999;
+height:80px;
+}
+#footer span.pmpknpi{
+float:right;
+font-size:.86em;
+padding:3px 6px 4px; 
+margin-top:2px;
+color:#fff;
+font-weight:bold;
+background:#bbb;
+}
+#footer a{
+color:#fff;
+text-decoration:none;
+}
+/*-----------------------------------
+helpers
+-----------------------------------*/
+
+.clear{clear:both}
+.left{float:left}
+.right{float:right}
+
+/*-----------------------------------
+image classes
+-----------------------------------*/
+.center{
+text-align:center;
+}
+img.border{
+padding:5px; 
+border:1px solid #ccc;
+}
+img.matte{
+padding:10px 10px 11px;
+background:#eee;
+}
+img.left{margin:10px 20px 10px 0;}
+img.right{margin:10px 0 10px 20px;}
+img.center{margin-left:10px;}
+
+p.flickr{
+  text-align:center;
+  padding:10px;
+}
+
+
+
+/*-----------------------------------
+Default Typography
+-----------------------------------*/
+
+a{
+color:#24F;
+color:#000;
+font-weight:bold;
+}
+.article .body a{
+  font-weight:300;
+  text-decoration:none;
+  border-bottom:1px solid #4ebaff;
+}
+.article .body a:hover{
+  border-bottom:1px solid #444;
+}
+a img{border:none;}
+
+h1, h2, h3, h4, h5, h6{ font-family:Helvetica, Arial, sans-serif; }
+
+#masthead h1 {
+  line-height: normal;
+  padding:0;
+  }
+  #masthead h1 a{
+  color:#ccc;
+  letter-spacing:-.06em;
+  margin:0;
+  margin-bottom:-0.25em;
+  padding:0;
+  line-height:1em;
+  font-size:1.8em;
+  text-decoration:none;
+  text-indent: -999px;
+  background: url(/img/type/merbman.gif) no-repeat;
+  width:298px;
+  height:71px;
+  display:block;
+  }
+  #masthead .subscribe{
+  float:right;
+  margin-top:38px;
+  }
+  #masthead .subscribe a{
+    color:#ccc;
+    letter-spacing:-.06em;
+    margin:0;
+    margin-bottom:-0.25em;
+    padding:0;
+    line-height:1em;
+    font-size:1.8em;
+    text-decoration:none;
+    text-indent: -9999px;
+    background: url(/img/type/subscribe.gif) no-repeat;
+    width:143px;
+    height:37px;
+    display:block;
+    }
+
+
+
+
+/*-----------------------------------
+ .article
+-----------------------------------*/
+#main h1{
+  width:98%;
+  font-size:3.15em;
+  font-size:52px;
+  line-height:1em;
+  letter-spacing:-0.025em;
+  word-spacing:-0.05em;
+  color:#999999;
+  text-decoration:none;
+  margin:0;
+  }
+  
+/*  h1.title{
+  --xcolor:#FFCA06;
+  text-decoration:underline;
+  }*/
+  .body p,
+  .body li{
+  line-height:170%;
+  }
+  span.drop {
+  font-family:Georgia;
+  color:#4ebaff;
+  display:inline;
+  float:left;
+  font-size:2.8em;
+  line-height:0.8em;
+  margin:0.07em 0.14em 0pt 0pt;
+  text-transform:uppercase;
+  }
+  
+  .body h2{
+  color:#777777;
+  font-size:1.6em;
+  padding:6px 0 0px;
+  }
+
+.meta{
+  font-family: Georgia, Serif;
+  font-size:1.0em;
+  text-align:right;
+  color:#231F20;
+  color:#d11;
+  margin:0px 0 20px;
+  }
+  span.published_at{
+    float:left;
+    }
+  span.comments_count{
+    padding-right:10px;
+    } 
+    span.sub{
+    vertical-align:middle;
+    font-size:1.4em;
+    }
+    span.big{
+    font-size:2.2em;
+    letter-spacing:-.06em;
+    }
+
+
+/*-----------------------------------
+comment
+-----------------------------------*/
+
+#comments{
+  margin-top:50px;
+  padding-left:30px;
+  }
+  #comments h3.comments{
+  text-indent: -9999px;
+  background: url(/img/type/comments.gif) no-repeat;
+  width:198px;
+  height:41px;
+  display:block;
+  margin-left:-5px;
+  margin-bottom:35px;
+  }
+.comment{
+  margin:30px 0;
+  }
+  .arrows{
+    float:left;
+    }
+    a.arrow.up{
+    background-image: url(/images/icons/arrows_up.gif);
+    background-repeat: no-repeat;
+    margin-bottom:5px;
+    display:block;
+    width:21px;
+    height:26px;
+    }
+    a.arrow.down{
+    background-image: url(/images/icons/arrows_down.gif);
+    background-repeat: no-repeat;
+    margin-bottom:5px;
+    display:block;
+    width:21px;
+    height:26px;
+    }
+    a.arrow.up          { background-position: 0    0 }
+    a.arrow.up:hover    { background-position:-44px 0 }
+    a.arrow.up.true     { background-position:-44px 0 }  
+    a.arrow.down        { background-position: 0    0 }
+    a.arrow.down:hover  { background-position:-44px 0 }
+    a.arrow.down.true   { background-position:-44px 0 }
+    
+  .comment .head{
+    font-family:Georgia;
+    font-size:1.4em;
+    color:#BBBBBB;
+    padding:0;
+    }
+    .comment .name, .comment .name a{
+    font-size:16px;
+    font-weight:bold;
+    color:#999;
+    }
+    .comment.admin .name a{
+      color:#231F20;
+      text-decoration:none;
+    }
+    .comment .head .votes{
+      padding:1px 3px;
+      font-size:11px }
+    .comment .head .votes.true{ 
+      background:#4ebaff;
+      color:#FFFFFF;
+      }
+  .comment .main{
+    margin-left:36px;
+    margin-left:35px;
+    padding:0;
+    }
+    .comment .body p{
+    line-height:170%;
+    }
+  
+  
+    /* standard */
+
+    #post pre {
+      border: 1px solid #ddd;
+      background-color: #eef;
+      padding: 0 .4em;
+    }
+
+    #post code {
+      border: 1px solid #ddd;
+      background-color: #eef;
+      font-size: 95%;
+      padding: 0 .2em;
+    }
+
+      #post pre code {
+        border: none;
+      }
+
+    /* terminal */
+
+    #post pre.terminal {
+      border: 1px solid black;
+      background-color: #333;
+      color: white;
+    }
+
+    #post pre.terminal code {
+      background-color: #333;
+    }
+
+
+
+
+/*-----------------------------------
+Validations
+-----------------------------------*/
+
+.submittal_failed{
+margin:0 0 10px;
+padding:10px 10px;
+background:#fcc;
+border-top:1px solid #510;
+border-bottom:1px solid #510;
+color:#510;
+}
+.submittal_failed h2{
+font-size:1.6em;
+margin:0;
+padding:0;
+}
+.submittal_failed ul{
+margin:5px;
+}
+.comment_errors .submittal_failed{
+background: lightyellow;
+border-color:#cc9500;
+color:#ab8500;
+max-width:516px;
+}
