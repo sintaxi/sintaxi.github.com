@@ -1,0 +1,15 @@
+---
+layout: post
+title: Simple Navigation Using CSS Transitions
+published: false
+---
+
+h1. {{ page.title }}
+
+p(meta). 12 April 2009 - Vancouver
+
+Its nice to find a blogging platform that works the way I like it to.
+
+<iframe src ="/material/simple-nav/index.html" width="320" height="460">
+  <p>Your browser does not support iframes.</p>
+</iframe>

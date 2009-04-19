@@ -1,0 +1,12 @@
+---
+layout: post
+title: Hello World!
+---
+
+h1. {{ page.title }}
+
+p(meta). 12 April 2009 - Vancouver
+
+Jekyll is simply badass. Its nice to see a publishing platform developers. I made this attempt a while back with a blog system called pmpknpi. It was built on merb 0.5. It was simple and fast as hell.  The problem with pmpknpi was that I stuck with the old paradigm of server, database and form fields.
+
+Jekyll takes a different approach. Mainly, the content is stored in git. This means there is no database to manage. And because of github pages, this replaces the server and the deployment process. w00t!
