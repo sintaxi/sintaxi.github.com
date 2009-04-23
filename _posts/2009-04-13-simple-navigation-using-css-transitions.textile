@@ -5,10 +5,12 @@ title: Simple Navigation Using CSS Transitions
 
 h1. {{ page.title }}
 
-p(meta). 12 April 2009 - Vancouver
+<span class="drop">O</span>ne. Its nice to find a blogging platform that works the way I like it to. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Its nice to find a blogging platform that works the way I like it to.
-
-<iframe src ="/material/simple-nav/index.html" width="320" height="460">
+<iframe src ="/material/simple-nav/index.html" width="320" height="460" class="phone">
   <p>Your browser does not support iframes.</p>
 </iframe>
+
+Three Its nice to find a blogging platform that works the way I like it to. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+This is the Four. Its nice to find a blogging platform that works the way I like it to. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
