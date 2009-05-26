@@ -14,30 +14,33 @@ h4(bottom right pink). I cant believe its not native
 </div>
 
 <div class="slide">
-  <br /><br /><br /><br /><br /><br />
-  <br /><br /><br /><br /><br /><br />
-h3. Brock Whitten && Rob Ellis  
+h3{margin-top:230px}. Brock Whitten && Rob Ellis  
 
 h4(blue). Nitobi
 </div>
 
-<div class="slide bg-white">
-  <br />   
-h4(pink). Landscape  
+<div class="slide bg-blue" style="overflow:hidden">  
+h4{margin-top:250px}. _so whats the problem?_
+</div>
 
-|_. Platform      |_. Language        |_. Osim?     |
-| iPhone          | Objective-C       | not really  |
-| Android         | Java (Dalvik VM)  | ok          |
-| BlackBerry      | Java (Who Knows)  | no          |
-| Windows Mobile  | .Net and/or C++   | sorry       |
-| Nokia           | C++, Java, Flash  | sorta       |
-| Palm            | HTML, CSS, JS     |(blue). *Exactly*     |
+<div class="slide bg-white">
+h4{margin-top:20px}. Landscape  
+
+|_. Platform        |_. Language        |_. Osim?     |
+| *iPhone*          | Objective-C       | not really  |
+| *Android*         | Java (Dalvik VM)  | ok          |
+| *BlackBerry*      | Java (Who Knows)  | no          |
+| *Windows Mobile*  | .Net and/or C++   | sorry       |
+| *Nokia*           | C++, Java, Flash  | sorta       |
+| *Palm*            | HTML, CSS, JS     |(pink). *Exactly*     |
 </div>
 
 <div class="slide">
 h2(top right black). multiple code bases
 
 !elephant-ski.jpg!
+
+h5(bottom right black). good luck with that
 </div>
 
 <div class="slide">
@@ -45,21 +48,17 @@ h2(top right black). multiple code bases
 </div>
 
 <div class="slide bg-orange">
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-h1. HTML / CSS / JS
+h1{margin-top:250px}. HTML / CSS / JS
 </div>
 
 <div class="slide">
-h1(top left). started hacking...
+h1(top left). started hacking...  
 
 !brock.jpg!
 </div>
 
 <div class="slide bg-blue">
-  <br /><br /><br />
-  <br /><br /><br />
-  <br /><br /><br />
-h3(red). Today
+h3{margin-top:150px}(red). Today
 
 h3. iPhone
 
@@ -69,8 +68,7 @@ h3. Android
 </div>
 
 <div class="slide bg-blue">
-  <br /><br /><br />
-h3(red). Soon
+h3{margin-top:60px}(red). Soon
 
 h3. iPhone
 
@@ -85,42 +83,26 @@ h3. Nokia
 h3. Palm
 </div>
 
-<div class="slide bg-red">  
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-h1. HTML5
-</div>
-
 <div class="slide">  
 h4(bottom right bg-red). anyone can do this shit  
 
 !dog-human.jpg!  
 </div>
 
-<div class="slide bg-blue">  
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-h4. _lets have a look_
+<div class="slide bg-pink">  
+h1{margin-top:250px}. HTML5
 </div>
 
-<div class="slide bg-white">
-  <br /><br /><br /><br /><br /><br /><br /><br /><br />
-h3(pink). vibrate
-
-<br />
-<br />
+<div class="slide bg-white" style="overflow:hidden">
+h3{margin-top:200px}(pink). vibrate
 
 h6(code). navigator.notification.vibrate(0);
-
 </div>
 
 <div class="slide bg-white">
-  <br /><br /><br /><br /><br /><br /><br /><br /><br />
-h3(pink). geolocation
-
-<br />
-<br />
+h3{margin-top:200px}(pink). geolocation
 
 h6(code). navigator.geolocation.getCurrentPosition(win, fail);
-
 </div>
 
 <div class="slide bg-white">

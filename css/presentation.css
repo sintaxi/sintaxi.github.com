@@ -26,16 +26,17 @@ a:hover {
 	margin:0 auto 200px auto;
 	text-align:center;
 	position:relative;
+	overflow:hidden;
 }
 
-div.slide img{
+.slide p{
+  margin:0;
+}
+
+.slide p img{
   width:100%;
   height:100%;
   text-align:center;
-}
-
-hr {
-	border:1px solid #ccc;
 }
 
 
@@ -124,21 +125,21 @@ table tr td {
 
 .top{
   position:absolute;
-  top:20px;
+  top:0px;
 }
 .bottom{
   position:absolute;
-  bottom:20px;
+  bottom:0px;
 }
 
 .left{
   position:absolute;
-  left:30px;
+  left:10px;
 }
 
 .right{
   position:absolute;
-  right:30px;
+  right:10px;
 }
 
 
