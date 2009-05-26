@@ -1,0 +1,158 @@
+---
+layout: presentation
+title: I can't believe Its not Native!
+category: presentations
+permalink: /presentations/phonegap/index.html
+---
+
+<div class="slide">
+h1(top left). PhoneGap  
+
+h4(bottom right pink). I cant believe its not native
+
+!dog-with-pipe.jpg!
+</div>
+
+<div class="slide">
+  <br /><br /><br /><br /><br /><br />
+  <br /><br /><br /><br /><br /><br />
+h3. Brock Whitten && Rob Ellis  
+
+h4(blue). Nitobi
+</div>
+
+<div class="slide bg-white">
+  <br />   
+h4(pink). Landscape  
+
+|_. Platform      |_. Language        |_. Osim?     |
+| iPhone          | Objective-C       | not really  |
+| Android         | Java (Dalvik VM)  | ok          |
+| BlackBerry      | Java (Who Knows)  | no          |
+| Windows Mobile  | .Net and/or C++   | sorry       |
+| Nokia           | C++, Java, Flash  | sorta       |
+| Palm            | HTML, CSS, JS     |(blue). *Exactly*     |
+</div>
+
+<div class="slide">
+h2(top right black). multiple code bases
+
+!elephant-ski.jpg!
+</div>
+
+<div class="slide">
+!dont-worry-guys.png!
+</div>
+
+<div class="slide bg-orange">
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+h1. HTML / CSS / JS
+</div>
+
+<div class="slide">
+h1(top left). started hacking...
+
+!brock.jpg!
+</div>
+
+<div class="slide bg-blue">
+  <br /><br /><br />
+  <br /><br /><br />
+  <br /><br /><br />
+h3(red). Today
+
+h3. iPhone
+
+h3. BlackBerry
+
+h3. Android
+</div>
+
+<div class="slide bg-blue">
+  <br /><br /><br />
+h3(red). Soon
+
+h3. iPhone
+
+h3. BlackBerry
+
+h3. Android
+
+h3. Windows Mobile
+
+h3. Nokia
+
+h3. Palm
+</div>
+
+<div class="slide bg-red">  
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+h1. HTML5
+</div>
+
+<div class="slide">  
+h4(bottom right bg-red). anyone can do this shit  
+
+!dog-human.jpg!  
+</div>
+
+<div class="slide bg-blue">  
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+h4. _lets have a look_
+</div>
+
+<div class="slide bg-white">
+  <br /><br /><br /><br /><br /><br /><br /><br /><br />
+h3(pink). vibrate
+
+<br />
+<br />
+
+h6(code). navigator.notification.vibrate(0);
+
+</div>
+
+<div class="slide bg-white">
+  <br /><br /><br /><br /><br /><br /><br /><br /><br />
+h3(pink). geolocation
+
+<br />
+<br />
+
+h6(code). navigator.geolocation.getCurrentPosition(win, fail);
+
+</div>
+
+<div class="slide bg-white">
+  <br /><br /><br /><br /><br /><br /><br />
+h3(pink). geolocation
+
+<br />
+
+{% highlight javascript %}
+var getLocation = function() {
+
+  var win = function(p){
+    alert(p.latitude + " " + p.longitude);
+  };
+  var fail = function(){};
+  
+  navigator.geolocation.getCurrentPosition(win, fail);
+}
+{% endhighlight %}
+</div>
+
+<div class="slide bg-blue">  
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+h4. BTW - MIT
+</div>
+
+<div class="slide bg-red">  
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+h4. Questions?
+</div>
+
+<div class="slide">  
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+h4. _demo_
+</div>
