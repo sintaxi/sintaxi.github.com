@@ -8,7 +8,7 @@ body {
 }
 
 a {
-	text-decoration:none;
+	color:blue;
 }
 
 a:hover {
@@ -88,6 +88,11 @@ a:hover {
 .orange{color:#FF5400}
 .bg-orange{background-color:#FF5400}
 
+.green{color:green}
+.bg-green{background-color:green}
+
+.yellow{color:yellow}
+.bg-yellow{background-color:yellow}
 
 
 table {

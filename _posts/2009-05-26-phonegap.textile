@@ -60,27 +60,27 @@ h1(top left). started hacking...
 <div class="slide bg-blue">
 h3{margin-top:150px}(red). Today
 
+h3. Android
+
 h3. iPhone
 
 h3. BlackBerry
-
-h3. Android
 </div>
 
 <div class="slide bg-blue">
 h3{margin-top:60px}(red). Soon
 
-h3. iPhone
-
-h3. BlackBerry
-
-h3. Android
+h3. Palm OS
 
 h3. Windows Mobile
 
 h3. Nokia
 
-h3. Palm
+h3. Android
+
+h3. iPhone
+
+h3. BlackBerry
 </div>
 
 <div class="slide">  
@@ -99,6 +99,20 @@ h3{margin-top:200px}(pink). vibrate
 h6(code). navigator.notification.vibrate(0);
 </div>
 
+<div class="slide bg-white" style="overflow:hidden">
+h3{margin-top:200px}(pink). beep
+
+h6(code). navigator.notification.beep(2);
+</div>
+
+<div class="slide bg-white">
+h3{margin-top:200px}(pink). telephony
+
+{% highlight html %}
+  <a href="tel:411">Call 411</a>
+{% endhighlight %}
+</div>
+
 <div class="slide bg-white">
 h3{margin-top:200px}(pink). geolocation
 
@@ -106,10 +120,7 @@ h6(code). navigator.geolocation.getCurrentPosition(win, fail);
 </div>
 
 <div class="slide bg-white">
-  <br /><br /><br /><br /><br /><br /><br />
-h3(pink). geolocation
-
-<br />
+h3{margin-top:130px; margin-bottom:30px}(pink). geolocation
 
 {% highlight javascript %}
 var getLocation = function() {
@@ -124,17 +135,84 @@ var getLocation = function() {
 {% endhighlight %}
 </div>
 
-<div class="slide bg-blue">  
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-h4. BTW - MIT
+<div class="slide bg-white">
+h3{margin-top:200px}(pink). accelerometer
+
+h6(code). navigator.accelerometer.watchAcceleration(win, fail, opt);
 </div>
 
-<div class="slide bg-red">  
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-h4. Questions?
+<div class="slide bg-white">
+h3{margin-top:130px; margin-bottom:30px}(pink). accelerometer
+
+{% highlight javascript %}
+function watchAccel() {
+  var win = function(a){
+    document.getElementById('x').innerHTML = a.x;
+    document.getElementById('y').innerHTML = a.y;
+    document.getElementById('z').innerHTML = a.z;
+  };
+  var fail = function(){};
+  var opt = {};
+  opt.frequency = 100;
+  timer = navigator.accelerometer.watchAcceleration(win, fail, opt);
+}
+{% endhighlight %}
 </div>
 
 <div class="slide">  
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-h4. _demo_
+h4{margin-top:250px}(white). btw - PhoneGap is MIT
+</div>
+
+<div class="slide bg-red">  
+h4{margin-top:250px}. Questions?
+</div>
+
+<div class="slide bg-blue">
+h4{margin-top:250px}. _osim. but how to I build apps?_
+</div>
+
+<div class="slide bg-green">
+h1{margin-top:200px}. XUI
+
+h6. JQuery gone Tiny
+</div>
+
+<div class="slide bg-white">
+h3{margin-top:200px}(green). selector
+
+h6(code). x$('a.foo');
+</div>
+
+<div class="slide bg-white">
+h3{margin-top:200px}(green). event
+
+h6(code). x$('a.foo').touchstart(function(){ alert("hi") });
+</div>
+
+<div class="slide bg-white">
+h3{margin-top:200px}(green). xhr
+
+h6(code). x$('#tweets').xhr('/tweet.html');
+</div>
+
+<div class="slide bg-orange">
+h1{margin-top:200px}. Dashcode
+
+h6. Huge win. Little effort
+</div>
+
+<div class="slide">  
+h4{margin-top:250px}. demo
+</div>
+
+<div class="slide bg-white">  
+h5{margin-top:150px}. resources
+
+h5. "phonegap.com":http://phonegap.com
+
+h5. "groups.google.com/group/phonegap.com":http://http://groups.google.com/group/phonegap.com
+
+h5. "phonegap.pbwiki.com/":http://phonegap.pbwiki.com/
+
+h5. "twitter.com/phonegap":http://twitter.com/phonegap
 </div>
