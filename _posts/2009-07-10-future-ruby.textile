@@ -20,7 +20,13 @@ h4(blue). Nitobi
 </div>
 
 <div class="slide bg-green" style="overflow:hidden">  
-h4{margin-top:250px}. _Can Ruby Mobile?_
+h4{margin-top:250px}. _So Whats PhoneGap?_
+</div>
+
+<div class="slide bg-blue">
+h1{margin-top:230px;}. MIT  
+
+h5{margin-top:10px;}. free as in do what you like
 </div>
 
 <div class="slide bg-white">
@@ -36,28 +42,314 @@ h4{margin-top:20px}. Cluster Fuck
 </div>
 
 <div class="slide">
-!dont-worry-guys.png!
-</div>
-
-<div class="slide">
-h3(top right black). lets put ruby on the phone
+h2(top right black). multiple code bases
 
 !elephant-ski.jpg!
 
-h5(bottom right black). 
+h5(bottom right black). or embed a web server ;)
+</div>
+
+<div class="slide">
+!dont-worry-guys.png!
 </div>
 
 <div class="slide bg-orange">
 h1{margin-top:250px}. HTML / CSS / JS
 </div>
 
+<div class="slide bg-green" style="overflow:hidden">  
+h4{margin-top:250px}. The Ruby Mindset
+</div>
+
 <div class="slide bg-blue">
-h5{margin-top:256px;color:white}. small, fast and FUCKING EVERYWHERE!
+h3{color:yellow}(bottom right black). we have problems
+
+!party-hard.jpg!
+</div>
+
+<div class="slide bg-pink" style="overflow:hidden">  
+h4{margin-top:250px}. Joyent Smart Platform
+</div>
+
+<div class="slide bg-black" style="overflow:hidden">  
+h4{margin-top:250px}. btw - method_missing
+</div>
+
+<div class="slide bg-white">
+h3{margin-top:130px; margin-bottom:30px}(pink). noSuchMethod
+
+{% highlight javascript %}
+obj = {};
+
+obj.__noSuchMethod__ = function __noSuchMethod__ (id, args) {
+   alert("Did you forget this? " + id + " " + args );
+}
+
+obj.wtf('test');
+
+{% endhighlight %}
+</div>
+
+<div class="slide bg-blue">
+h3{color:yellow}(top left black). you will never party this hard
+
+!party2.jpg!
+</div>
+
+<div class="slide bg-blue">
+h5{margin-top:256px;color:white}. small, fast, and FUCKING EVERYWHERE!
+</div>
+
+<div class="slide bg-orange">
+h1{margin-top:250px}. Mobile JavaScript
+</div>
+
+<div class="slide bg-orange">
+h1{margin-top:250px}. Webkit FTW
+
+* HTML5 Cache Management
+* easily the most advanced, fastest ass kicking browser.
+* css transitions, animations, etc
+* custom fonts
+* local storage and sqllite
 </div>
 
 <div class="slide">
-!party-hard.jpg!
+h1(top left). Webkit  
+
+h1(top right). Badass!
+
+  <div class="vert" style="margin-top:80px">
+    !bear.jpg!
+  </div>
 </div>
+
+<div class="slide bg-orange">
+h1. More Webkit Hotness
+
+* iPhone OS 3.0   Webkit 528.16 Build
+* iPhone OS 2.2   Webkit 525.20 Build
+* iPhone OS 2.02  Webkit 525.20 Build
+* iPhone OS 1.5   Webkit 419.3 Build
+* Android 1.5     Webkit Nov 2008 Fork
+* Android 1.1     Webkit Rev r30692
+* Android 1.0     Webkit 
+* PalmPre OS      Webkit
+* Nokia S60       Webkit Fork
+* Nokia WRT       Webkit Fork
+</div>
+
+
+<div class="slide bg-orange">
+h1. WTF is not Webkit?!?
+
+* WinMo
+* Blackberry 
+* Your parents old phone
+</div>
+
+<div class="slide bg-blue">
+h3(black){margin:60px;}. Landscape
+
+h3. Stuff you already use.
+
+h3. IUI
+
+h3. jQTouch
+
+h3. Magic Framework
+
+h3. XUI
+</div>
+
+<div class="slide bg-blue">
+h1{margin-top:250px;color:white}. Your Favorite $()
+</div>
+
+<div class="slide bg-blue">
+h1{margin-top:250px;color:white}. IUI
+</div>
+
+<div class="slide bg-green">
+h1{margin-top:200px}. XUI
+
+h6. JQuery gone Tiny
+</div>
+
+<div class="slide bg-white">
+h3{margin-top:200px}(green). selector
+
+h6(code). x$('a.foo');
+</div>
+
+<div class="slide bg-white">
+h3{margin-top:130px; margin-bottom:30px; color:green}. more selectors
+
+{% highlight javascript %}
+
+x$(window);                         // The Window
+x$(element);                        // An Existing Element  
+x$('ul#globalnav li a.selected');   // A CSS3 Selector
+x$(['li','div#foo']);               // An Array of Selectors
+x$('li','.selected','#some_id');    // A comma list of CSS3 Selectors
+
+{% endhighlight %}
+</div>
+
+<div class="slide bg-white">
+h3{margin-top:200px}(green). event
+
+h6(code). x$('a.foo').touchstart(function(){ alert("hi") });
+</div>
+
+<div class="slide bg-white">
+h3{margin-top:130px; margin-bottom:30px; color:green}. more hotness
+
+{% highlight javascript %}
+
+x$('.save').touchstart( function(evt){ 
+  alert('tee hee!') 
+}); 
+
+x$('.foo').addClass('awesome');
+
+x$('.foo').removeClass('className');
+
+{% endhighlight %}
+</div>
+
+<div class="slide bg-white">
+h3{margin-top:200px}(green). xhr
+
+h6(code). x$('#tweets').xhr('/tweet.html');
+</div>
+
+<div class="slide bg-orange">
+h1{margin-top:250px;color:white}. Future
+</div>
+
+<div class="slide bg-orange">
+h1. PhoneGap
+
+* awesome concept
+* terrible execution
+</div>
+
+
+<div class="slide bg-orange">
+h1. the PhoneGap Philosophy one more time
+
+* device agnostic
+* open standards
+* open source
+</div>
+
+
+<div class="slide bg-orange">
+h1. terrible execution: PhoneGap risks
+
+* gotta be real here
+* big fucking surprise: ain't all roses
+</div>
+
+
+<div class="slide bg-orange">
+h1. competition?
+
+<pre class="code">
+	
+	big five ........ iphone ....................... web .... GPL2
+	liquid gear ..... iphone ....................... web* ... MIT
+	corona .......... iphone ....................... lua .... proprietary
+	nimblekit ....... iphone ....................... web* ... proprietary
+	appcellerator ... iphone/android ............... web* ... apache/proprietary 
+	rhodes .......... iphone/android/winmo/nokia ... web .... GPL3
+	
+	* renders native controls
+	
+</pre>
+</div>
+
+
+
+<div class="slide bg-orange">
+h1. so, is this competition?
+
+* lockin is not a goal of phonegap
+* open code, open standards, as many devices as possible
+</div>
+
+<div class="slide bg-orange">
+h1. no tests?!
+
+* no fucking tests!
+* ooooh epic moral high ground fail
+</div>
+
+<div class="slide bg-orange">
+h1. problem with no tests
+
+* API still evolving and the Roadmap is unclear.
+* Documentation is terrible and divisive. 
+* adding platforms tough
+</div>
+
+<div class="slide bg-orange">
+h1. benefits of no tests
+
+* quick starting new platforms
+* now we know what to test
+* a chance to work together
+</div>
+
+<div class="slide bg-orange">
+h1. app store rejection FUD
+
+* a symptom rather than a problem itself
+</div>
+
+<div class="slide bg-orange">
+h1. groundwork: fixing PhoneGap
+
+* simple installation (sound familiar? it will be ruby)
+* unified builds (coming very very soon, also: ruby)
+* extensive docs (brock built it over a couple of days with Smart)
+* shared tests (working with Appcelerator guys, likely Screw Unit)
+</div>
+
+<div class="slide bg-orange">
+h1. mobile dev futures 
+
+* all web all the time
+* rehydrating applications (html5 cache manifest)
+* native app guis using: css transitions, transforms and animations
+</div>
+
+<div class="slide bg-orange">
+h1. uprocking PhoneGap
+
+* widgets are hot (nokia, vodaphone, etc)
+* bondi (nice specs!)
+* w3c device api working group (coming soon...)
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="slide">
 !internets2.jpg!
@@ -160,29 +452,7 @@ h4{margin-top:250px}. Questions?
 h4{margin-top:250px}. _osim. but how to I build apps?_
 </div>
 
-<div class="slide bg-green">
-h1{margin-top:200px}. XUI
 
-h6. JQuery gone Tiny
-</div>
-
-<div class="slide bg-white">
-h3{margin-top:200px}(green). selector
-
-h6(code). x$('a.foo');
-</div>
-
-<div class="slide bg-white">
-h3{margin-top:200px}(green). event
-
-h6(code). x$('a.foo').touchstart(function(){ alert("hi") });
-</div>
-
-<div class="slide bg-white">
-h3{margin-top:200px}(green). xhr
-
-h6(code). x$('#tweets').xhr('/tweet.html');
-</div>
 
 <div class="slide bg-orange">
 h1{margin-top:200px}. Dashcode
@@ -222,6 +492,7 @@ Nitobi
   - build on open source products
   - mobile centric
   - we write a lot of ruby (other stuff too)
+  - not VC funded
   
 What brought us here (ruby, toronto, epic conference)
 
