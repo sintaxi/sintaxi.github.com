@@ -6,7 +6,7 @@ permalink: /presentations/future-ruby/index.html
 ---
 
 <div class="slide">
-h1(top left). Ruby Go Moble
+h1(top left). Ruby Go Mobile
 
 h4(bottom right pink). we're those phonegap guys
 
