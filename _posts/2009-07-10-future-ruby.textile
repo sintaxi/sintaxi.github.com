@@ -415,10 +415,6 @@ h1{margin-top:170px}. uprocking PhoneGap
 h5{left:280px}(bottom left). Lots of apps in the wild
 </div>
 
-<div class="slide bg-red">  
-h4{margin-top:250px}. Questions?
-</div>
-
 <div class="slide bg-white">  
 h5{margin-top:150px}. resources
 
