@@ -85,8 +85,15 @@ h3. Git
 h3. Sammy
 </div>
 
+<div class="slide bg-blue">
+h3{color:yellow}(bottom right black). fuck hoverboards
+  
+!hoverboard.gif!
+
+</div>
+
 <div class="slide bg-black" style="overflow:hidden">  
-h4{margin-top:250px}. btw - method_missing
+h6{margin-top:250px;font-weight:300}. Smart.respond_to?(<span class="blue">:method_missing</span>) == <span class="blue">true</span>
 </div>
 
 <div class="slide bg-white">
@@ -408,14 +415,16 @@ h1. uprocking PhoneGap
 
 <div class="slide">
 !internets2.jpg!
-
-Any questions?
 </div>
 
 <div class="slide">
 !apps.png!
 
 h5{left:280px}(bottom left). Lots of apps in the wild
+</div>
+
+<div class="slide bg-red">  
+h4{margin-top:250px}. Questions?
 </div>
 
 <div class="slide bg-white">  
@@ -433,129 +442,5 @@ h5. "brock whitten":http://twitter.com/sintaxi
 
 h5. "nitobi":http://nitobi.com
 </div>
-
-
-
-
-
-
-
-
-
-
-
-<div class="slide">  
-h4{margin-top:250px}(white). btw - PhoneGap is MIT
-</div>
-
-<div class="slide bg-red">  
-h4{margin-top:250px}. Questions?
-</div>
-
-<div class="slide bg-blue">
-h4{margin-top:250px}. _osim. but how to I build apps?_
-</div>
-
-
-
-<div class="slide bg-orange">
-h1{margin-top:200px}. Dashcode
-
-h6. Huge win. Little effort
-</div>
-
-<div class="slide">  
-h4{margin-top:250px}. demo
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-Intro
-
-Nitobi
-  - services company
-  - build on open source products
-  - mobile centric
-  - we write a lot of ruby (other stuff too)
-  - not VC funded
-  
-What brought us here (ruby, toronto, epic conference)
-
-We are really here to talk about mobile development
-
-The ruby mindset
-  - remove ceremony
-  - don't get carried away with name spacing
-  - put your effort where it counts
-  - programmer happiness
-  - efficiency
-  
-Love ruby design but not the environment (people are solving this problem)
-
-Problems We have
-  - deployment is a bitch
-  - consumes a lot of resources
-  - not on devices by default
-
-Basically ruby is not the best choice for mobile ...today
-
-Internet is here!
-
-HTML / CSS / JAVASCRIPT
-
-Javascript is small, fast, and FUCKING EVERYWHERE!
-
-Apple dashcode && palm SDK (this is the right approach. rob and brian will elaborate on this)
-
-Javascript solves most of our mobile problems
-
-Smart Platform
-  - server-side javascript
-  - code sits in git repo (consumes no resources)
-  - fires up a new VM for each request
-  - scales infinitely (in theory)
-  - Sammy framework (sinatra equivalent in js)
-  - available now!
-  
-Smart deserves and entire talk but let me show you hello world with sammy
-(2 min)
-
-WTF? I thought you were here to talk about phonegap?
-
-What is PhoneGap?
-  Cross platform mobile development build on open web standards
-  - Javascript API that exposes Core functionality of mobile devices
-  - based on HTML5 spec
-
-Rob is now going to blow your mind.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
