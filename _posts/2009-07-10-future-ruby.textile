@@ -329,7 +329,7 @@ function watchAccel() {
 <div class="slide bg-blue">
 h1{margin-top:250px;color:white}. PhoneGap
 
-h5. awesome concept / has obsticles
+h5. awesome concept / has obstacles
 </div>
 
 <div class="slide bg-black">
