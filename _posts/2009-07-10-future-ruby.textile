@@ -14,13 +14,6 @@ h4(bottom right pink). we're those phonegap guys
 </div>
 
 <div class="slide">
-h4{margin-top:240px;}. slides vailable
-
-h5{color:yellow;font-weight:300;}. sintaxi.github.com/presentations/future-ruby/
-
-</div>
-
-<div class="slide">
 h4{margin-top:230px; font-size:2em}. Brock Whitten && Rob Ellis && Brian LeRoux
 
 h4(blue). Nitobi
@@ -420,15 +413,15 @@ h5{margin-top:150px}. resources
 
 h5. "phonegap.com":http://phonegap.com
 
-h5. "xui":http:xuijs.com
+h5. "xuijs.com":http://xuijs.com
 
-h5. "brian leroux":http://twitter.com/brianleroux
+h5. "http://twitter.com/brianleroux":http://twitter.com/brianleroux
 
-h5. "rob ellis":http://twitter.com/rob_ellis
+h5. "http://twitter.com/rob_ellis":http://twitter.com/rob_ellis
 
-h5. "brock whitten":http://twitter.com/sintaxi
+h5. "http://twitter.com/sintaxi":http://twitter.com/sintaxi
 
-h5. "nitobi":http://nitobi.com
+h5. "nitobi.com":http://nitobi.com
 </div>
 
 
