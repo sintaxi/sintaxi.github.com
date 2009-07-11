@@ -148,3 +148,13 @@ table tr td {
 }
 
 
+ul{
+  padding-left:100px;
+  text-align:left;
+}
+
+ul > li{
+  font-size:2em;
+}
+
+

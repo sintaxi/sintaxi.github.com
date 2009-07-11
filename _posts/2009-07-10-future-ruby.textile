@@ -86,14 +86,13 @@ h3. Sammy
 </div>
 
 <div class="slide bg-blue">
-h3{color:yellow}(bottom right black). fuck hoverboards
   
 !hoverboard.gif!
 
 </div>
 
 <div class="slide bg-black" style="overflow:hidden">  
-h6{margin-top:250px;font-weight:300}. Smart.respond_to?(<span class="blue">:method_missing</span>) == <span class="blue">true</span>
+h5{margin-top:250px;font-weight:300}. Smart.respond_to?(<span class="blue">:method_missing</span>) == <span class="blue">true</span>
 </div>
 
 <div class="slide bg-white">
@@ -136,7 +135,7 @@ h1(top right). Badass!
 </div>
 
 <div class="slide bg-orange">
-h1{margin-top:250px}. Webkit FTW
+h1{margin-top:150px}. Webkit FTW
 
 * HTML5 Cache Manafest
 * easily the most advanced, fastest ass kicking browser.
@@ -146,7 +145,7 @@ h1{margin-top:250px}. Webkit FTW
 </div>
 
 <div class="slide bg-orange">
-h1. More Webkit Hotness
+h1{margin-top:50px}. Lots of Webkit
 
 * iPhone OS 3.0   Webkit 528.16 Build
 * iPhone OS 2.2   Webkit 525.20 Build
@@ -360,45 +359,38 @@ h1. lockin is not a goal of phonegap
 </div>
 
 <div class="slide bg-orange">
-h1. no tests?!
+h1{margin-top:200px}. consistency
 
 * no fucking tests!
 * ooooh epic moral high ground fail
 </div>
 
 <div class="slide bg-orange">
-h1. problem with no tests
+h1{margin-top:180px}. problem with no tests
 
 * API still evolving and the Roadmap is unclear.
 * Documentation is terrible and divisive. 
 * adding platforms tough
 </div>
 
-<div class="slide bg-orange">
-h1. benefits of no tests
 
-* quick starting new platforms
-* now we know what to test
-* a chance to work together
+<div class="slide bg-orange">
+h1{margin-top:200px}. app store acceptance
+
+* we have to play nice
 </div>
 
 <div class="slide bg-orange">
-h1. app store rejection FUD
+h1{margin-top:170px}. improving PhoneGap
 
-* a symptom rather than a problem itself
+* simple installation
+* unified builds
+* extensive docs
+* shared tests
 </div>
 
 <div class="slide bg-orange">
-h1. groundwork: fixing PhoneGap
-
-* simple installation (sound familiar? it will be ruby)
-* unified builds (coming very very soon, also: ruby)
-* extensive docs (brock built it over a couple of days with Smart)
-* shared tests (working with Appcelerator guys, likely Screw Unit)
-</div>
-
-<div class="slide bg-orange">
-h1. mobile dev futures 
+h1{margin-top:180px}. mobile dev futures 
 
 * all web all the time
 * rehydrating applications (html5 cache manifest)
@@ -406,7 +398,7 @@ h1. mobile dev futures
 </div>
 
 <div class="slide bg-orange">
-h1. uprocking PhoneGap
+h1{margin-top:170px}. uprocking PhoneGap
 
 * widgets are hot (nokia, vodaphone, etc)
 * bondi (nice specs!)
