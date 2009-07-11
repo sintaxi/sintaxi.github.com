@@ -8,9 +8,16 @@ permalink: /presentations/future-ruby/index.html
 <div class="slide">
 h1(top left). Ruby Go Moble
 
-h4(bottom right pink). were those phonegap guys
+h4(bottom right pink). we're those phonegap guys
 
 !dog-with-pipe.jpg!
+</div>
+
+<div class="slide">
+h4{margin-top:240px;}. slides vailable
+
+h5{color:yellow;font-weight:300;}. sintaxi.github.com/presentations/future-ruby/
+
 </div>
 
 <div class="slide">
@@ -45,8 +52,6 @@ h4{margin-top:20px}. Cluster Fuck
 h2(top right black). multiple code bases
 
 !elephant-ski.jpg!
-
-h5(bottom right black). or embed a web server ;)
 </div>
 
 <div class="slide">
@@ -69,6 +74,15 @@ h3{color:yellow}(bottom right black). we have problems
 
 <div class="slide bg-pink" style="overflow:hidden">  
 h4{margin-top:250px}. Joyent Smart Platform
+</div>
+
+<div class="slide bg-pink">
+
+h3{margin-top:200px}. VM
+
+h3. Git
+
+h3. Sammy
 </div>
 
 <div class="slide bg-black" style="overflow:hidden">  
@@ -104,16 +118,6 @@ h5{margin-top:256px;color:white}. small, fast, and FUCKING EVERYWHERE!
 h1{margin-top:250px}. Mobile JavaScript
 </div>
 
-<div class="slide bg-orange">
-h1{margin-top:250px}. Webkit FTW
-
-* HTML5 Cache Management
-* easily the most advanced, fastest ass kicking browser.
-* css transitions, animations, etc
-* custom fonts
-* local storage and sqllite
-</div>
-
 <div class="slide">
 h1(top left). Webkit  
 
@@ -122,6 +126,16 @@ h1(top right). Badass!
   <div class="vert" style="margin-top:80px">
     !bear.jpg!
   </div>
+</div>
+
+<div class="slide bg-orange">
+h1{margin-top:250px}. Webkit FTW
+
+* HTML5 Cache Manafest
+* easily the most advanced, fastest ass kicking browser.
+* css transitions, animations, etc
+* custom fonts
+* local storage and sqllite
 </div>
 
 <div class="slide bg-orange">
@@ -139,13 +153,10 @@ h1. More Webkit Hotness
 * Nokia WRT       Webkit Fork
 </div>
 
+<div class="slide">  
+h4(bottom right bg-orange). WTF is not Webkit?!?
 
-<div class="slide bg-orange">
-h1. WTF is not Webkit?!?
-
-* WinMo
-* Blackberry 
-* Your parents old phone
+!dog-human.jpg!  
 </div>
 
 <div class="slide bg-blue">
@@ -228,145 +239,14 @@ h6(code). x$('#tweets').xhr('/tweet.html');
 h1{margin-top:250px;color:white}. Future
 </div>
 
-<div class="slide bg-orange">
-h1. PhoneGap
-
-* awesome concept
-* terrible execution
-</div>
-
-
-<div class="slide bg-orange">
-h1. the PhoneGap Philosophy one more time
-
-* device agnostic
-* open standards
-* open source
-</div>
-
-
-<div class="slide bg-orange">
-h1. terrible execution: PhoneGap risks
-
-* gotta be real here
-* big fucking surprise: ain't all roses
-</div>
-
-
-<div class="slide bg-orange">
-h1. competition?
-
-<pre class="code">
-	
-	big five ........ iphone ....................... web .... GPL2
-	liquid gear ..... iphone ....................... web* ... MIT
-	corona .......... iphone ....................... lua .... proprietary
-	nimblekit ....... iphone ....................... web* ... proprietary
-	appcellerator ... iphone/android ............... web* ... apache/proprietary 
-	rhodes .......... iphone/android/winmo/nokia ... web .... GPL3
-	
-	* renders native controls
-	
-</pre>
-</div>
-
-
-
-<div class="slide bg-orange">
-h1. so, is this competition?
-
-* lockin is not a goal of phonegap
-* open code, open standards, as many devices as possible
-</div>
-
-<div class="slide bg-orange">
-h1. no tests?!
-
-* no fucking tests!
-* ooooh epic moral high ground fail
-</div>
-
-<div class="slide bg-orange">
-h1. problem with no tests
-
-* API still evolving and the Roadmap is unclear.
-* Documentation is terrible and divisive. 
-* adding platforms tough
-</div>
-
-<div class="slide bg-orange">
-h1. benefits of no tests
-
-* quick starting new platforms
-* now we know what to test
-* a chance to work together
-</div>
-
-<div class="slide bg-orange">
-h1. app store rejection FUD
-
-* a symptom rather than a problem itself
-</div>
-
-<div class="slide bg-orange">
-h1. groundwork: fixing PhoneGap
-
-* simple installation (sound familiar? it will be ruby)
-* unified builds (coming very very soon, also: ruby)
-* extensive docs (brock built it over a couple of days with Smart)
-* shared tests (working with Appcelerator guys, likely Screw Unit)
-</div>
-
-<div class="slide bg-orange">
-h1. mobile dev futures 
-
-* all web all the time
-* rehydrating applications (html5 cache manifest)
-* native app guis using: css transitions, transforms and animations
-</div>
-
-<div class="slide bg-orange">
-h1. uprocking PhoneGap
-
-* widgets are hot (nokia, vodaphone, etc)
-* bondi (nice specs!)
-* w3c device api working group (coming soon...)
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="slide">
-!internets2.jpg!
-</div>
-
-<div class="slide">
-  <div class="vert" style="margin-top:80px">
-  
-  !hair.jpg!
-  
-  </div>
-</div>
-
 <div class="slide">  
-h4(bottom right bg-red). anyone can do this shit  
+!internets3.jpeg! 
+</div>
 
-!dog-human.jpg!  
+<div class="slide bg-orange">
+h1{margin-top:150px;color:white}. PhoneGap Philosophy
+
+h5. device agnostic / open standards / open source
 </div>
 
 <div class="slide bg-pink">  
@@ -440,6 +320,130 @@ function watchAccel() {
 {% endhighlight %}
 </div>
 
+<div class="slide bg-blue">
+h1{margin-top:250px;color:white}. PhoneGap
+
+h5. awesome concept / has obsticles
+</div>
+
+<div class="slide bg-black">
+h1{margin-top:250px;color:red}. Risks
+</div>
+
+<div class="slide bg-white">
+h4{margin-top:20px}. Competition?  
+
+|_. Framework   |_. Platform                  |_. Tech    |_. License |
+| big five      | iphone                      | web       | GPL2 |
+| liquid gear   | iphone                      | web*      | MIT |
+| corona        | iphone                      | lua       | proprietary |
+| nimblekit     | iphone                      | web*      | proprietary |
+| appcellerator | iphone/android              | web*      | apache/proprietary |
+| rhodes        | iphone/android/winmo/nokia  | web       | GPL3 |
+
+\* renders native controls
+</div>
+
+<div class="slide bg-orange">
+h1. lockin is not a goal of phonegap
+
+  <div class="vert">
+    !hair.jpg!  
+  </div>
+</div>
+
+<div class="slide bg-orange">
+h1. no tests?!
+
+* no fucking tests!
+* ooooh epic moral high ground fail
+</div>
+
+<div class="slide bg-orange">
+h1. problem with no tests
+
+* API still evolving and the Roadmap is unclear.
+* Documentation is terrible and divisive. 
+* adding platforms tough
+</div>
+
+<div class="slide bg-orange">
+h1. benefits of no tests
+
+* quick starting new platforms
+* now we know what to test
+* a chance to work together
+</div>
+
+<div class="slide bg-orange">
+h1. app store rejection FUD
+
+* a symptom rather than a problem itself
+</div>
+
+<div class="slide bg-orange">
+h1. groundwork: fixing PhoneGap
+
+* simple installation (sound familiar? it will be ruby)
+* unified builds (coming very very soon, also: ruby)
+* extensive docs (brock built it over a couple of days with Smart)
+* shared tests (working with Appcelerator guys, likely Screw Unit)
+</div>
+
+<div class="slide bg-orange">
+h1. mobile dev futures 
+
+* all web all the time
+* rehydrating applications (html5 cache manifest)
+* native app guis using: css transitions, transforms and animations
+</div>
+
+<div class="slide bg-orange">
+h1. uprocking PhoneGap
+
+* widgets are hot (nokia, vodaphone, etc)
+* bondi (nice specs!)
+* w3c device api working group 
+</div>
+
+<div class="slide">
+!internets2.jpg!
+
+Any questions?
+</div>
+
+<div class="slide">
+!apps.png!
+
+h5{left:280px}(bottom left). Lots of apps in the wild
+</div>
+
+<div class="slide bg-white">  
+h5{margin-top:150px}. resources
+
+h5. "phonegap.com":http://phonegap.com
+
+h5. "xui":http:xuijs.com
+
+h5. "brian leroux":http://twitter.com/brianleroux
+
+h5. "rob ellis":http://twitter.com/rob_ellis
+
+h5. "brock whitten":http://twitter.com/sintaxi
+
+h5. "nitobi":http://nitobi.com
+</div>
+
+
+
+
+
+
+
+
+
+
+
 <div class="slide">  
 h4{margin-top:250px}(white). btw - PhoneGap is MIT
 </div>
@@ -464,17 +468,7 @@ h6. Huge win. Little effort
 h4{margin-top:250px}. demo
 </div>
 
-<div class="slide bg-white">  
-h5{margin-top:150px}. resources
 
-h5. "phonegap.com":http://phonegap.com
-
-h5. "groups.google.com/group/phonegap.com":http://http://groups.google.com/group/phonegap.com
-
-h5. "phonegap.pbwiki.com/":http://phonegap.pbwiki.com/
-
-h5. "twitter.com/phonegap":http://twitter.com/phonegap
-</div>
 
 
 
