@@ -1,34 +1,39 @@
----
-layout: default
-title: Sintaxi
----
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>sintaxi</title>
+  </head>
+  <style type="text/css" media="screen">
+    :focus { outline:0 }
+    body{
+    margin:0;
+    padding:30px;
+    font-family: Monaco, sans-serif;
+    }
+    
+  </style>
+  <body>
+    <h1>Sintaxi</h1>
+    <h2>Talks</h2>
+    <ul class="posts">
+      <li><span>27 Jul 2009</span> &raquo; <a href="#">Erlang Meetup - Vancouver</a></li>
+      <li><span>21 Jul 2009</span> &raquo; <a href="#">OSCON - San Jose</a></li>
+      <li><span>11 Jul 2009</span> &raquo; <a href="#">FutureRuby - Toronto</a></li>
+      <li><span>11 Jun 2009</span> &raquo; <a href="#">Open Web 09 - Vancouver</a></li>
+      <li><span>02 Mar 2009</span> &raquo; <a href="#">360 | iDev - San Jose</a></li>
+      <li><span>24 Jan 2009</span> &raquo; <a href="#">Ruby in the Rain - Vancouver</a></li>
+      <li><span>11 Oct 2008</span> &raquo; <a href="#">Merb Camp - San Diego</a></li>
+      <li><span>15 Apr 2008</span> &raquo; <a href="#">Open Web 08 - Vancouver</a></li>
+      <li><span>26 Jan 2008</span> &raquo; <a href="#">Ruby Camp Vancouver</a></li>
+    </ul>
+    <h2>Projects</h2>
+    <ul class="posts">
+      <li><a href="http://github.com/sintaxi/phonegap/">PhoneGap:</a> device agnostic mobile development platform</li>
+      <li><a href="http://github.com/brianleroux/xui/">XUI:</a> wicked small javascript framework for mobile devices</li>
+      <li><a href="http://github.com/sintaxi/pmpknpi/">Pmpknpi:</a> a once great blog engine written in merb (jekyll is better)</li>
+    </ul>
+  <body>
+</html>
 
-<style type="text/css" media="screen">
-</style>
-
-<div id="home">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <h2>Blog Posts</h2>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-  
-  <h2>Talks</h2>
-  <ul class="posts">
-    <li><span>17 Jan 2009</span> &raquo; <a href="#">OSCON - San Jose</a></li>
-    <li><span>17 Jan 2009</span> &raquo; <a href="#">360 | iDev - San Jose</a></li>
-    <li><span>17 Jan 2009</span> &raquo; <a href="#">Ruby in the Rain - Vancouver</a></li>
-    <li><span>17 Jan 2009</span> &raquo; <a href="#">Merb Camp - San Diego</a></li>
-    <li><span>17 Jan 2009</span> &raquo; <a href="#">Open Web Vancouver</a></li>
-    <li><span>17 Jan 2009</span> &raquo; <a href="#">Ruby Camp Vancouver</a></li>
-  </ul>
-  
-  <h2>Projects</h2>
-  <ul class="posts">
-    <li><a href="http://github.com/sintaxi/phonegap/">PhoneGap:</a> device agnostic mobile development platform</li>
-    <li><a href="http://github.com/sintaxi/xui/">XUI:</a> wicked small javascript framework for mobile devices</li>
-    <li><a href="http://github.com/sintaxi/pmpknpi/">Pmpknpi:</a> a once great blog engine written in merb (jekyll is better)</li>
-  </ul>
-</div>
